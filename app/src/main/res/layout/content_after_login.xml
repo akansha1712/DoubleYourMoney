@@ -12,10 +12,44 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="akansha.example.com.doubleyourmoney.AfterLoginActivity"
     tools:showIn="@layout/activity_after_login">
-    <TextView
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login Successful"
-        android:layout_centerHorizontal="true"/>
+        android:text="DOUBLE YOUR MONEY"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="@android:color/black"
+           android:id="@+id/doubleyourmoney_textview" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Its Time To Test Your Luck"
+           android:textColor="@android:color/black"
+           android:paddingTop="15dp"
+           android:textSize="20dp"
+           android:layout_centerHorizontal="true"
+           android:textAllCaps="true"
+           android:textStyle="normal"
+           android:id="@+id/subtext_textview" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Buy Ticket"
+           android:paddingTop="15dp"
+           android:textSize="20dp"
+           android:textColor="@android:color/holo_red_dark"
+           android:layout_centerHorizontal="true"
+           android:textAllCaps="true"
+           android:id="@+id/buyticket_textview" />
 
+
+
+
+   </LinearLayout>
 </RelativeLayout>
