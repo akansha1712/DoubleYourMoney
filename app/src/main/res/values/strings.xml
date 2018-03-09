@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DoubleYourMoney</string>
+    <string name="title_activity_after_login">AfterLoginActivity</string>
+</resources>
